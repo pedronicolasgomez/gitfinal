@@ -1,6 +1,9 @@
 function saludo(MyName) {
     console.log("Hola, como estas " + MyName + "?" );
 }
-function saludo(alzu) {
-    console.log("hola, como estas " + alzu + "?");
+function cuantopesa(Peso) {
+    console.log("Pesas " + Peso + " kilos");
 }
+
+saludo("Juan")
+cuantopesa(57)
